@@ -9,15 +9,46 @@ To develop a scenario-based report that demonstrates how diverse prompting techn
 
 # Algorithm:
 ### Zero-Shot Prompting
-Prompt: 
-“Give a health tip for diabetes.”
+### Prompt: 
+-> “Give a health tip for diabetes.”
+### Use:
+-> To get direct advice without prior training.
 
-Use:
-To get direct advice without prior training.
+### Few-Shot Prompting
+### Prompt:
+-> Example: “I have arthritis.” → “Try light stretching exercises.”  
+-> Now input: “I have joint pain.” 
+### Use:
+-> To generalize based on a few examples.
+
+### Chain-of-Thought Prompting
+### Prompt:
+-> “Check sugar level → Assess symptoms → Suggest light food.”
+### Use:
+-> To guide AI step-by-step in giving medical advice.
+
+### Role-Based Prompting
+### Prompt:
+-> “You are a kind nurse talking to an elderly patient.” 
+### Use:
+-> To create a soft and caring response style.
+
+### Multi-Modal Prompting
+### Prompt:
+-> “Analyze this foot rash image and give advice.”
+### Use:
+-> To generate responses based on images and text.
 
 # output
+->  “For diabetes, keep your sugar levels in control and eat small meals.”
+
+->  “I see you mentioned joint pain. Try light stretching or consult your doctor.”
+
+->  “I understand you’re feeling dizzy. Please sit and drink some water.”
+
+->  “As a caring assistant, I’m here to help you. Do you want a reminder for your medicine?”
+
+->  “The foot rash appears serious. Please visit a clinic within 24 hours.”
+
 # Result
-
-
-
-
+The MediGuide assistant successfully responded using diverse prompting techniques, offering helpful and relevant advice to elderly patients across various scenarios including symptom checks, emotional support, and medication guidance.
