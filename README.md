@@ -9,12 +9,12 @@ To develop a scenario-based report that demonstrates how diverse prompting techn
 
 # Algorithm:
 ### Zero-Shot Prompting
-```
-Prompt: “Give a health tip for diabetes.”
+Prompt: 
+“Give a health tip for diabetes.”
 
-Use: To get direct advice without prior training.
+Use:
+To get direct advice without prior training.
 
-```
 # output
 # Result
 
